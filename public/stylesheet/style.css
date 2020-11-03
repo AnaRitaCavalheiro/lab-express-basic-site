@@ -19,8 +19,13 @@ body {
   justify-content: space-between;
 }
 
-img {
+.works-img {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: row;
+}
+
+.works-img img {
+  margin-right: 100px;
+  height: 300px;
+  width: 250px;
 }
